@@ -1,0 +1,3692 @@
+<html lang="en">
+<head>
+    <meta name="application-name" content="CHS Online" />
+    <meta name="description" content="CHS Online Services" />
+    <meta name="keywords" content="CHS Online, SILMF, SILME, SSM, Hyperlinks, CHS, CHSPJ, CHSPJ Online" />
+    <meta charset="utf-8" />
+    <meta name="google-translate-customization" content="ffc9908cefb7379c-56a3068bebe1d7d9-ga25c40001d7e4c27-1d"></meta>
+    <link rel="stylesheet" type="text/css" href="../layout/css/menubar.css" />
+    <!-- Copy this script into your html file to enable Application Insights -->
+    <script type="text/javascript">
+        var appInsights = { queue: [], start: function (n) { function r(n, t) { n[t] = function () { var i = arguments; n.queue.push(function () { n[t].apply(n, i) }) } } var t, i; this.applicationInsightsId = n; this.accountId = null; this.appUserId = null; r(this, "logEvent"); r(this, "logPageView"); t = document.createElement("script"); t.type = "text/javascript"; t.src = "//az416426.vo.msecnd.net/scripts/ai.js"; t.async = !0; i = document.getElementsByTagName("script")[0]; i.parentNode.insertBefore(t, i) } };
+        appInsights.start("6966d69a-d5db-458c-a418-5f63934c2714");
+        appInsights.logPageView();
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-45453423-2', 'chspjonline.azurewebsites.net');
+        ga('send', 'pageview');
+    </script>
+</head>
+	<body>
+        <p style="text-align:center;"><a href="../index.html"><img src="../layout/logo.png" alt="CHS Online"></a></p>
+        <nav>
+            <ul>
+                <li><a class="menubar" href="../Default.cshtml">Home</a></li>
+                <li><a class="menubar">Student</a>
+                <ul>
+                    <li class="governmentlink"><a href="http://beb8653.1bestarinet.net" target="_blank">FROG VLE</a></li>
+                    <li class="inhouseapps"><a href="../student/silmf.cshtml">SILMF</a></li>
+                    <li class="inhouseapps"><a href="../student/silme.cshtml">SILME</a></li>
+                    <li class="inhouseapps"><a href="ssm.cshtml">SSM</a></li>
+                    <li class="inhouseapps"><a href="timetable/index.html" target="_blank" onclick='window.alert("This system only contains morning session timetable currently.")'>Timetable</a></li>
+                    <li class="externallink"><a href="http://portal.office.com" target="_blank">Office 365</a></li> 
+                    <li class="externallink"><a href="https://itacademy.microsoftelearning.com/?whr=urn:federation:O365" target="_blank">Microsoft IT Academy</a></li>
+                    <li class="externallink"><a href="http://e5.onthehub.com/d.ashx?s=4bw67mmnuf" target="_blank">Microsoft Dreamspark</a></li>
+                    <li class="governmentlink"><a href="http://spp.moe.edu.my" target="_blank">e-Bahan</a></li>
+                    <li class="governmentlink"><a href="http://www.eduwebtv.com" target="_blank">EduWebTV</a></li>
+                    <li class="governmentlink"><a href="http://sapsnkra.moe.gov.my/ibubapa2/index.php" target="_blank">SAPS (Semakan)</a></li>
+                    <li class="governmentlink"><a href="http://webmpm.mpm.edu.my/stpma/" target="_blank">Semak STPM 2013</a></li>
+                    <li class="governmentlink"><a href="http://apps5.moe.gov.my/emkoko/papar_mark.cfm" target="_blank" onclick='window.alert("This system only contains GERKO marks of Form 5 and Form Upper 6 Students Year 2013")'>Semak Markah Koko</a></li>
+                    <li class="governmentlink"><a href="http://www.moe.gov.my/" target="_blank">MOE</a></li>
+                    <li class="governmentlink"><a href="http://www.mpm.edu.my/" target="_blank">MPM</a></li>
+                    <li class="externallink"><a href="http://rechneronline.de/function-graphs/" target="_blank">RECHNERonline Plotter</a></li>
+                    <li class="externallink"><a href="http://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
+                    <li class="externallink"><a href="http://www.wikipedia.org/" target="_blank">Wikipedia</a></li>
+                </ul>
+                </li>
+                <li><a class="menubar">Teacher</a>
+                    <ul>
+                        <li class="governmentlink"><a href="http://beb8653.1bestarinet.net" target="_blank">FROG VLE</a></li>
+                        <li class="inhouseapps"><a href="../teacher/silmfteacher.cshtml">SILMF (Teacher)</a></li>
+                        <li class="inhouseapps"><a href="ssm.cshtml">SSM</a></li>
+                        <li class="inhouseapps"><a href="timetable/index.html" target="_blank" onclick='window.alert("This system only contains morning session timetable currently.")'>Timetable</a></li>
+                        <li class="externallink"><a href="http://portal.office.com" target="_blank">Office 365</a></li>
+                        <li class="externallink"><a href="https://itacademy.microsoftelearning.com/?whr=urn:federation:O365" target="_blank">Microsoft IT Academy</a></li>
+                        <li class="externallink"><a href="http://sms.chspj.edu.my" target="_blank">SMS</a></li>
+                        <li class="governmentlink"><a href="http://sps.1bestarinet.net" target="_blank">SPS</a></li>
+                        <li class="governmentlink"><a href="http://sapsnkra.moe.gov.my" target="_blank">SAPS</a></li>
+                        <li class="governmentlink"><a href="http://apdm.moe.gov.my/" target="_blank">APDM</a></li>
+                        <li class="governmentlink"><a href="http://www.anm.gov.my/" target="_blank">e-Penyata Gaji</a></li>
+                        <li class="governmentlink"><a href="http://apps.moe.gov.my/eoperasi/" target="_blank">e-Operasi</a></li>
+                        <li class="governmentlink"><a href="http://apps2.moe.gov.my/epangkat/login.php" target="_blank">e-PANGKAT</a></li>
+                        <li class="governmentlink"><a href="http://spp.moe.edu.my" target="_blank">e-Bahan</a></li>
+                        <li class="governmentlink"><a href="http://www.eduwebtv.com" target="_blank">EduWebTV</a></li>
+                        <li class="governmentlink"><a href="http://pnp.moe.edu.my/eguru" target="_blank">e-Guru</a></li>
+                        <li class="governmentlink"><a href="http://apps.moe.gov.my/epgo/" target="_blank">e-GTukar</a></li>
+                        <li class="governmentlink"><a href="http://emisonline.moe.gov.my/" target="_blank">EMIS</a></li>
+                        <li class="governmentlink"><a href="http://apps5.moe.gov.my/ssdm/" target="_blank">SSDM</a></li>
+                        <li class="governmentlink"><a href="http://www.moe.gov.my/" target="_blank">MOE</a></li>
+                        <li class="governmentlink"><a href="http://www.mpm.edu.my/" target="_blank">MPM</a></li>
+                        <li class="governmentlink"><a href="http://btpnsel.edu.my/" target="_blank">BTPN Selangor</a></li>
+                        <li class="externallink"><a href="http://mail.google.com" target="_blank">Gmail</a></li>
+                        <li class="externallink"><a href="https://www.dropbox.com" target="_blank">Dropbox</a></li>
+                        <li class="externallink"><a href="http://rechneronline.de/function-graphs/" target="_blank">RECHNERonline Plotter</a></li>
+                        <li class="externallink"><a href="http://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
+                        <li class="externallink"><a href="http://www.wikipedia.org/" target="_blank">Wikipedia</a></li>
+                    </ul>
+                </li>
+                <li><a class="menubar">Parent</a>
+                <ul>
+                    <li class="governmentlink"><a href="http://beb8653.1bestarinet.net" target="_blank">FROG VLE</a></li>
+                    <li class="inhouseapps"><a href="../parent/silmfparent.cshtml">SILMF (Parent)</a></li>
+                    <li class="inhouseapps"><a href="timetable/index.html">Timetable</a></li>
+                    <li class="governmentlink"><a href="http://sapsnkra.moe.gov.my/ibubapa2/index.php" target="_blank">SAPS (Semakan)</a></li>
+                    <li class="governmentlink"><a href="http://webmpm.mpm.edu.my/stpma/" target="_blank">Semak STPM 2013</a></li>
+                    <li class="governmentlink"><a href="http://www.moe.gov.my/" target="_blank">MOE</a></li>
+                    <li class="governmentlink"><a href="http://www.mpm.edu.my/" target="_blank">MPM</a></li>
+                </ul>
+                </li>
+                <li class="schoolwebsiteurl"><a href="http://chspj.edu.my" target="_blank">School Website</a></li>
+                <li class="admin"><a href="https://chspjonline.azurewebsites.net/admin/">Admin</a></li>
+            </ul>
+        </nav>
+            <br />
+        <br />
+			
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SSM - CHS Online</title>
+    </head>
+    <body>
+        <img src="Sistem&#32;SSM&#32;logo.jpg" alt="Sistem Senarai Murid" border="1" />
+        <br />
+        Take note: Data of Form Lower 6 students is temporary not available.
+        <br />
+        <form method="post">
+            <label for="Name">Name (part of the name): </label>
+            <input type="text" name="Name" value="" />
+            <input type="submit" value="Check" />
+            <input type="reset" value="Reset" />
+        </form>
+            <div id="grid">
+                    <table>
+    <thead>
+        <tr>
+            <th scope="col">
+<a href="ssm.cshtml?sort=Name&amp;sortdir=ASC">Name</a>            </th>
+            <th scope="col">
+<a href="ssm.cshtml?sort=Class&amp;sortdir=ASC">Class</a>            </th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr >
+            <td colspan="2"><a href="ssm.cshtml?sort=Name&amp;sortdir=DESC&amp;page=2">&lt;</a> <a href="ssm.cshtml?sort=Name&amp;sortdir=DESC&amp;page=1">1</a> <a href="ssm.cshtml?sort=Name&amp;sortdir=DESC&amp;page=2">2</a> 3 </td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>JONATHAN HOO KUOK HOE                     </td>
+            <td>5S5           </td>
+        </tr>
+        <tr>
+            <td>JOLENE ONG SU LYNN                        </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>JOHNSON LU YEW WANG                       </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>JOHNSON CHONG CHIAN LE                    </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>JOHN ONG YING WEI                         </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>JOEY ONG YING YEEN                        </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>JOEY LEONG JU WEI                         </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>JOEY CHANG JOE YEE                        </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>JOEL HONG ZI RONG                         </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>JOANNE WEE SUET MUN                       </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>JOANNE CHONG E-QIN                        </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>JOANNE ANG HUI XIN                        </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>JOANA TAN CHE ERN                         </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>JOAN WEE YUN XUAN                         </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>JICENT YEE XIN SHENG                      </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>JI WAI KIT                                </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>JEWEL LIM CHIEN RU                        </td>
+            <td>4P5           </td>
+        </tr>
+        <tr>
+            <td>JETHRO FOLK ZUNWAY                        </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>JESSIE FOO MEI YEE                        </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>JESSICA SAU BAO XUAN                      </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>JESSELYN LUEI SOOK KA                     </td>
+            <td>5P2           </td>
+        </tr>
+        <tr>
+            <td>JERRICA QUAH SUET YEE                     </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>JERAELYN TAN MING LI                      </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>JENNIFER KHOO WEI NI                      </td>
+            <td>2B6           </td>
+        </tr>
+        <tr>
+            <td>JEFFREY NIAM JUN HUI                      </td>
+            <td>3B3           </td>
+        </tr>
+        <tr>
+            <td>JAYAGAUTAM A/L MAHENDIRA RAJAN            </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>JASVEER SINGH SANDHU                      </td>
+            <td>3B6           </td>
+        </tr>
+        <tr>
+            <td>JASON LEE DE JUN                          </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>JASON KEAN SHERN KYE                      </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>JASON AH JIE SHENG                        </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>JASMINE TEOH LEE SUAN                     </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>JASMINE AH JIE MIN                        </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>JASMEEN ANN LIEW JIA YUAN                 </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>JAROD TANG KAI MING                       </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>JANICE LING TZE YEE                       </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>JANICE LAU LIK WEN                        </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>JANAN YAP HAOZHEN                         </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>JAN CHOY SHU YANG                         </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>JAMIE TAN MAE CHEE                        </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>JAMIE CHONG HUI-LINN                      </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>JALEN TAN KHAI-ZHEN                       </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>JAISNAVI MAHESHKUMAR                      </td>
+            <td>1A7           </td>
+        </tr>
+        <tr>
+            <td>IZA ELINA ISKANDAR                        </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>IVY SUN                                   </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>IVAN TAN PHEI HARN                        </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>IVAN HIEW MUN CHOONG                      </td>
+            <td>3B3           </td>
+        </tr>
+        <tr>
+            <td>IVAN CHOO KIM YONG                        </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>IVAN CHEONG WERN HOWE                     </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>ISIS LO TZE YEN                           </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>ISHAN SINGH                               </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>ISABEL ANG XIANG LING                     </td>
+            <td>5S8           </td>
+        </tr>
+        <tr>
+            <td>ISAAC YONG JIA JUN                        </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>ISAAC LIN                                 </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>IRIS LO TZE WAI                           </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>IRIS BUDIMAN CHIANG IE CHING              </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>IP KAH YEE                                </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>IDDHIMA CHONG HUI YI                      </td>
+            <td>3A5           </td>
+        </tr>
+        <tr>
+            <td>IDA THAM KHOI TING                        </td>
+            <td>5P5           </td>
+        </tr>
+        <tr>
+            <td>IAN WAN SHING ZE                          </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>IAN QUEK ZHENG WEI                        </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>IAN CHONG CHEOK MENG                      </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>HUN ZHI YEAN                              </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>HUA PEI HER                               </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>HUA CHYE YANG                             </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>HOW ZHENG SHIUNG                          </td>
+            <td>4P1           </td>
+        </tr>
+        <tr>
+            <td>HOW YU YING                               </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>HOU RUIQIAN                               </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>HOU RUIJIA                                </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>HOR WEI JIE                               </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>HOR TONG EN                               </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>HOR QI HAO                                </td>
+            <td>4S7           </td>
+        </tr>
+        <tr>
+            <td>HOR MEI HUI                               </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>HOR CHEE QUAN                             </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>HOON JIA XI                               </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>HOO YI XIAN                               </td>
+            <td>2B6           </td>
+        </tr>
+        <tr>
+            <td>HOO WAY GENE                              </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>HOO KAYE TIAN                             </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>HOO JIN YI                                </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>HOO AI WEI                                </td>
+            <td>1B4           </td>
+        </tr>
+        <tr>
+            <td>HONG ZHEN FUNG GILBERT                    </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>HONG YUH DONG                             </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>HONG YUH CHYNG                            </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>HONG PEI HUA                              </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>HONG MIN YUEH, MELANIE                    </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>HOI ZIAR ZIN                              </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>HOI YAO XIAN                              </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>HOH XUE ER                                </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>HOH WENG CHIEW                            </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>HOH WEI TAO STANLEY                       </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>HOH SHENG MING                            </td>
+            <td>2B6           </td>
+        </tr>
+        <tr>
+            <td>HOE KENG YEW                              </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>HOE JOU ZHEN                              </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>HOA KING YUN                              </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>HOA BAO VEN                               </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>HO ZIQIAN                                 </td>
+            <td>4P1           </td>
+        </tr>
+        <tr>
+            <td>HO ZHUO XIN                               </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>HO ZHENG KEAT                             </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>HO YUNG SHENG                             </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>HO YING YUAN                              </td>
+            <td>1B6           </td>
+        </tr>
+        <tr>
+            <td>HO YEE THONG                              </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>HO SUM EE                                 </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>HO RUI SIN                                </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>HO MEI JING                               </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>HO LUOW SHUEN                             </td>
+            <td>5S8           </td>
+        </tr>
+        <tr>
+            <td>HO KOK ONN                                </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>HO KAI XIN                                </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>HO KA WAYNE                               </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>HO JING YING                              </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>HO JING WERN                              </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>HO JIA XUAN                               </td>
+            <td>2B6           </td>
+        </tr>
+        <tr>
+            <td>HO JIA WEI                                </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>HO ERN YI                                 </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>HING YEE GEIK                             </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>HIEW YI SA                                </td>
+            <td>5S8           </td>
+        </tr>
+        <tr>
+            <td>HIEW WEI RU                               </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>HEW ZIE KAI                               </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>HEW ZI EN                                 </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>HEW YI KEI                                </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>HEW TING YI                               </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>HEW KAI JUN                               </td>
+            <td>U6S           </td>
+        </tr>
+        <tr>
+            <td>HEW KAH LOK                               </td>
+            <td>5P5           </td>
+        </tr>
+        <tr>
+            <td>HEW JIA WEN                               </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>HEW HANG EE                               </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>HEUN YIN HUI                              </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>HERMAN TAN JUN HAO                        </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>HENRY TAN WEI JIAN                        </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>HENRY TAN PEI HENG                        </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>HENG YU MINN                              </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>HENG WEI TZE                              </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>HENG VEE YEN                              </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>HENG TIEN YEW                             </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>HENG SINN YEN                             </td>
+            <td>3A5           </td>
+        </tr>
+        <tr>
+            <td>HENG KHAI SUAN                            </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>HENG HAN QUAN                             </td>
+            <td>1A7           </td>
+        </tr>
+        <tr>
+            <td>HENDRY ANG KEEN SIN                       </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>HEN ZHI NING                              </td>
+            <td>U6B           </td>
+        </tr>
+        <tr>
+            <td>HEINRIK CHOONG CHUN-HO                    </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>HEIDI FOO                                 </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>HEE XIAO YI                               </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>HEE SIM NEY                               </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>HEE KAI SHENG                             </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>HEE HUI SZE                               </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>HEE HAU YEN                               </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>HAW WEI THENG                             </td>
+            <td>4S7           </td>
+        </tr>
+        <tr>
+            <td>HAW PEI YINN                              </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>HAW PEI TING                              </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>HAW HUI CHING                             </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>HARRY CHAI BIN YAN                        </td>
+            <td>4P4           </td>
+        </tr>
+        <tr>
+            <td>HARRICK WANG HUNG-TA                      </td>
+            <td>1B6           </td>
+        </tr>
+        <tr>
+            <td>HAR PEI YI                                </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>HAR PEI SHAN                              </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>HAR JUN XIAN                              </td>
+            <td>5S8           </td>
+        </tr>
+        <tr>
+            <td>HAN RUI ZHI                               </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>HAN PEI ZI                                </td>
+            <td>3B3           </td>
+        </tr>
+        <tr>
+            <td>HAN MIN                                   </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>HAH ZEN HUI                               </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>GWENLYN LOH                               </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>GWEN KHEW SUET MAN                        </td>
+            <td>5S8           </td>
+        </tr>
+        <tr>
+            <td>GRACE NG BINXUAN                          </td>
+            <td>2B6           </td>
+        </tr>
+        <tr>
+            <td>GRACE GAN QIAN HUEI                       </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>GRACE CHONG HUI EN                        </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>GRACE ASHVINI A/P RAMESH                  </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>GOOI SEIK HUI                             </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>GOOI LI JIN                               </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>GOOI KAI XIN, CARYS                       </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>GOO JIE YI                                </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>GOH ZI YUAN                               </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>GOH ZI LING                               </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>GOH YU XUAN                               </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>GOH YI EN                                 </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>GOH XUE MIN                               </td>
+            <td>1A7           </td>
+        </tr>
+        <tr>
+            <td>GOH WIN-ZHI                               </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>GOH WENG ZEN                              </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>GOH WENG HSIEN                            </td>
+            <td>5S8           </td>
+        </tr>
+        <tr>
+            <td>GOH SHU RUI                               </td>
+            <td>U6A           </td>
+        </tr>
+        <tr>
+            <td>GOH SHU QING                              </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>GOH SHU JIA                               </td>
+            <td>5S5           </td>
+        </tr>
+        <tr>
+            <td>GOH RUO-YI                                </td>
+            <td>5S8           </td>
+        </tr>
+        <tr>
+            <td>GOH RUO-XUAN                              </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>GOH RONG SHENG                            </td>
+            <td>4P1           </td>
+        </tr>
+        <tr>
+            <td>GOH MUN KIT                               </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>GOH MEI JUAN                              </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>GOH KHIM SHUAN                            </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>GOH KENG HUI                              </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>GOH JING XIANG                            </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>GOH IAN RONN                              </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>GOH CHYI SUEN                             </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>GOH CHIA YIN                              </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>GOH CHENG YEE                             </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>GOE LING                                  </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>GODWIN YEE YONG JIAN                      </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>GO DAT LIM                                </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>GO  DAT BIN                               </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>GLADYS CHEE SHIH HUEI                     </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>GIAM KEE WERN                             </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>GENEVIEVE GOH YI BING                     </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>GAVIN YANG WEN KAI                        </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>GAN ZI XUAN                               </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>GAN ZHU ZHOU                              </td>
+            <td>3A5           </td>
+        </tr>
+        <tr>
+            <td>GAN ZHI XIAN                              </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>GAN ZHENG QING                            </td>
+            <td>5P2           </td>
+        </tr>
+        <tr>
+            <td>GAN YEE WEN                               </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>GAN XUEMIN                                </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>GAN XIANG YONG                            </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>GAN WEN XUAN                              </td>
+            <td>3B3           </td>
+        </tr>
+        <tr>
+            <td>GAN WEI-LE                                </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>GAN WEI SHAN                              </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>GAN WEI KEE                               </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>GAN WEI KEAT                              </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>GAN WEI DE                                </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>GAN WEE XUAN                              </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>GAN SOON JIAN                             </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>GAN SHI QI                                </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>GAN PUI ONN                               </td>
+            <td>5P5           </td>
+        </tr>
+        <tr>
+            <td>GAN POH JING                              </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>GAN PEI ZOE                               </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>GAN PEI XIN                               </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>GAN LE WEI                                </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>GAN LE SYUEN                              </td>
+            <td>3B6           </td>
+        </tr>
+        <tr>
+            <td>GAN JING WEN                              </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>GAN JIN EN                                </td>
+            <td>4S7           </td>
+        </tr>
+        <tr>
+            <td>GAN HUI YING                              </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>GAN HONG LI                               </td>
+            <td>1A7           </td>
+        </tr>
+        <tr>
+            <td>GABRIEL SENG QI WEN                       </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>FUNG ZHI XIN                              </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>FUNG QIAN LING                            </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>FU YIK LYN                                </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>FRONAYSIS TEE ZHI HUI                     </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>FOONG YIN XIN                             </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>FOONG YI WON                              </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>FOONG LE QING                             </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>FOONG LE HUI                              </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>FOONG HAN LERK                            </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>FOONG BI YING                             </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>FOO ZU YI                                 </td>
+            <td>1B6           </td>
+        </tr>
+        <tr>
+            <td>FOO ZE WAI                                </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>FOO YONG JIE                              </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>FOO YEN LIN                               </td>
+            <td>5P2           </td>
+        </tr>
+        <tr>
+            <td>FOO XIN YI                                </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>FOO XIAN YI                               </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>FOO SIANG MING                            </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>FOO MING RONG                             </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>FOO KLYIE                                 </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>FOO KIEN MENG                             </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>FOO KANG JUN                              </td>
+            <td>5S8           </td>
+        </tr>
+        <tr>
+            <td>FOO JUN PIN                               </td>
+            <td>1B4           </td>
+        </tr>
+        <tr>
+            <td>FOO JIA DING                              </td>
+            <td>5S5           </td>
+        </tr>
+        <tr>
+            <td>FOO HUI THUNG                             </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>FOO FANG HUI                              </td>
+            <td>2B6           </td>
+        </tr>
+        <tr>
+            <td>FOO CHUAN TING                            </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>FOO CHUAN SHENG                           </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>FOO CARMEN                                </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>FONG SHI XIN                              </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>FONG MUN JUN                              </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>FONG MUN HOONG                            </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>FONG KA YEN                               </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>FONG JOYEE                                </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>FONG HON MUN                              </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>FONG CHUN HOE                             </td>
+            <td>5P2           </td>
+        </tr>
+        <tr>
+            <td>FLORENCE WONG MEI KUAN                    </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>FERNG JING XUAN                           </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>FARHAN HADEED BIN JOHAN SHAMSUDDIN        </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>FARAH ALYSHA                              </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>FARAH ADURA                               </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>FAN YU YING                               </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>FAN YU JIA                                </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>FAN WENG KEE                              </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>FAN KHAI JING                             </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>EW JIA NING                               </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>EW CHANG YI                               </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>EVELYN YAP YI WEN                         </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>EVAN KOK YIP MING                         </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>EUNICE WAN YU NEE                         </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>EUNICE NG JIA YUE                         </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>EUNICE LAI JING MUN                       </td>
+            <td>U6B           </td>
+        </tr>
+        <tr>
+            <td>EUGENE NEO SAU JUN                        </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>EUGENE LIM RI JIAN                        </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>ETHAN WONG HSIEN AUN                      </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>ETHAN TING SHENG                          </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>ESTHER YONG ZHEN YING                     </td>
+            <td>U6B           </td>
+        </tr>
+        <tr>
+            <td>ESTHER LOW JIA WAN                        </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>ESTHER CHUA MIAO HUI                      </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>ESTHER CHAN ZHIKENG                       </td>
+            <td>1B6           </td>
+        </tr>
+        <tr>
+            <td>ESMOND YAP WEI YANG                       </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>ERVIN LIM SOON SIEN                       </td>
+            <td>5P5           </td>
+        </tr>
+        <tr>
+            <td>ERNEST NGU JUN HONG                       </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>ERINA KUSABU                              </td>
+            <td>3B3           </td>
+        </tr>
+        <tr>
+            <td>ERIN CHONG SING YE                        </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>ERIC FOO JIU WERN                         </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>ER HOOI YEE                               </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>ER CHEN CHEN                              </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>ENG WAN CHI                               </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>ENG WAI HIN                               </td>
+            <td>U6B           </td>
+        </tr>
+        <tr>
+            <td>ENG HUI YEEN                              </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>ENG HUI QIAN                              </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>ENG DEEN SHEN                             </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>EMMETT CHEONG KAI JIE                     </td>
+            <td>4P5           </td>
+        </tr>
+        <tr>
+            <td>EMILY TAN TZI XIN                         </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>EMILY LOO CHA HUI                         </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>EMILY CHAN CHI YANN                       </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>ELYSHA LIM XIN QI                         </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>ELVI LIM WIN SIN                          </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>ELTON MAH SONG ZHE                        </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>ELIZABETH LOOI WHEI THENG                 </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>ELIN TING                                 </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>ELAINE YONG QIAN YING                     </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>ELAINE CHAN YUN RU                        </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>EK JU YU                                  </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>EER KAI JUN                               </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>EE XIN TIAN                               </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>EDWARD YONG SHI JIN                       </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>EDWARD ONG THIAM GUAN                     </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>EDWARD FOO KIT JIN                        </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>EDMUND SIA LEE CHUNG                      </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>EDMOND LEE HERN                           </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>DYLAN FOONG TZE HAN                       </td>
+            <td>1B4           </td>
+        </tr>
+        <tr>
+            <td>DOW WEI ZHE                               </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>DOROTHY YEONG MAY YII                     </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>DIONNE YAP SHUYI                          </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>DING WERN SHIN                            </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>DING BO KIT                               </td>
+            <td>5P5           </td>
+        </tr>
+        <tr>
+            <td>DIANA AMIN TUNG                           </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>DESMOND MAK KA FAI                        </td>
+            <td>5P5           </td>
+        </tr>
+        <tr>
+            <td>DERRICK SER WEI HONG                      </td>
+            <td>3A5           </td>
+        </tr>
+        <tr>
+            <td>DERRICK CHAN WUN KIT                      </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>DEREK GAN KAA KHENG                       </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>DENNYCA A/P K.SAGADEVARAJAN               </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>DEBBY MARISSA LANG POOI LING              </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>DARYL WONG ZJUN-HAAU                      </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>DARRYL TAN U JOU                          </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>DARREN YAP LINSHEN                        </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>DARREN LONG ZHIREN                        </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>DANIEL YAP CHOON LIANG                    </td>
+            <td>1A7           </td>
+        </tr>
+        <tr>
+            <td>DANIEL KHOO WEI BIN                       </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>DANIEL CHING LOONG                        </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>CRYSTAL WONG JO YEE                       </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>CORNELIUS LOW HUAI ZHI                    </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>CLEMENT TEE LIAN ZHENG                    </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CLARISSA LIM PUI YEE                      </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>CLARICE TAN JIA YI                        </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>CINDY YIP PUI YING                        </td>
+            <td>4P1           </td>
+        </tr>
+        <tr>
+            <td>CHYE FANG ZHENG                           </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>CHWA RIC-SHEN                             </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>CHWA RIC-HONG                             </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>CHWA LI ANNE                              </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>CHUNG ZHI PUI                             </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>CHUNG YU YAN                              </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>CHUNG WEN EE                              </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>CHUNG SIU JIT                             </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHUNG MEI EE                              </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>CHUM CHI ONN                              </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>CHUAH ZHINYEN                             </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>CHUAH WIL TON                             </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>CHUAH SHANG ZHEN                          </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>CHUAH PHANG HOONG                         </td>
+            <td>U6F           </td>
+        </tr>
+        <tr>
+            <td>CHUAH KEE KEAN                            </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHUAH JIE YI                              </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>CHUAH JIA YARN                            </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>CHUAH JIA HAN                             </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>CHUA ZHI XIN                              </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>CHUA ZHEN HERN                            </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>CHUA ZHE XUAN                             </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>CHUA YUN ZHE                              </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>CHUA YU YAN                               </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>CHUA YI YANG                              </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>CHUA YANG KANG                            </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>CHUA YAN LING                             </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>CHUA XIN ZI                               </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>CHUA XIN YU                               </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>CHUA XIN YI                               </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>CHUA WEN QIAN                             </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHUA WEN HAN, BRIAN                       </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>CHUA QIAN YI                              </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>CHUA QI YAN ADRIAN                        </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>CHUA LI XINN                              </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHUA LI LEON                              </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>CHUA LI HANN                              </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHUA KIT YI                               </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHUA JUN WAI                              </td>
+            <td>U6F           </td>
+        </tr>
+        <tr>
+            <td>CHUA JUN MING                             </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>CHUA GOEH SHAN                            </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHU ZHEN HAO                              </td>
+            <td>3A5           </td>
+        </tr>
+        <tr>
+            <td>CHU WEI XIEN                              </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHU WEI ERN                               </td>
+            <td>3B3           </td>
+        </tr>
+        <tr>
+            <td>CHU KAH CHIN                              </td>
+            <td>3B3           </td>
+        </tr>
+        <tr>
+            <td>CHU HSU LING                              </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>CHU ENG KIEN                              </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>CHRISTEN CHONG YING QI                    </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>CHOY ZHEN HUI                             </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>CHOY SHU ERN                              </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHOY PEI ZHEN                             </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>CHOY KAY LEE                              </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>CHOW ZUAN YING                            </td>
+            <td>4P5           </td>
+        </tr>
+        <tr>
+            <td>CHOW ZIN MUN                              </td>
+            <td>5P2           </td>
+        </tr>
+        <tr>
+            <td>CHOW ZI XUAN                              </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>CHOW ZI XING                              </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>CHOW ZHENG YAN                            </td>
+            <td>3B6           </td>
+        </tr>
+        <tr>
+            <td>CHOW ZHENG TENG                           </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>CHOW YONG HAN                             </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>CHOW SUAT JING                            </td>
+            <td>4P1           </td>
+        </tr>
+        <tr>
+            <td>CHOW QING YING                            </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>CHOW QING QIAN                            </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHOW POH KUAN                             </td>
+            <td>3B6           </td>
+        </tr>
+        <tr>
+            <td>CHOW KOK SHEN                             </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>CHOW KHAI BIN                             </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>CHOW KAH XIN                              </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>CHOW JOON KIT                             </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>CHOW JIA XIN                              </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>CHOW JIA HUI                              </td>
+            <td>3A5           </td>
+        </tr>
+        <tr>
+            <td>CHOW HUI ER                               </td>
+            <td>5S8           </td>
+        </tr>
+        <tr>
+            <td>CHOW AILEEN                               </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>CHOONG ZI XIAN                            </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>CHOONG ZI JUN                             </td>
+            <td>5S5           </td>
+        </tr>
+        <tr>
+            <td>CHOONG YEW MING                           </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>CHOONG YEE                                </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CHOONG XIN YING                           </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>CHOONG SHU TIAN                           </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>CHOONG MING                               </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>CHOONG KAH MAN                            </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>CHOONG HUI                                </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>CHOON YAP SHENG                           </td>
+            <td>1B4           </td>
+        </tr>
+        <tr>
+            <td>CHOOI BING                                </td>
+            <td>5P2           </td>
+        </tr>
+        <tr>
+            <td>CHOO ZHEN YANG                            </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>CHOO YUAN ZHANG                           </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>CHOO YING WEI                             </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>CHOO WEI KEN                              </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>CHOO TIM YUNG                             </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>CHOO TIM SERN                             </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>CHOO SHENG XIN                            </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>CHOO ROWIE                                </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>CHOO QIAN CHERN                           </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>CHOO KIT MUN                              </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>CHOO KAH KEONG                            </td>
+            <td>5S5           </td>
+        </tr>
+        <tr>
+            <td>CHOO KAH HAN                              </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>CHOO HAO RUI                              </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>CHOO EERN HOOEY                           </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>CHOO EARN                                 </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>CHOO CARMEN                               </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>CHOO  QIAN LIANG                          </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>CHONG ZI QUAN                             </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>CHONG ZI KEI                              </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>CHONG ZHI YING                            </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>CHONG ZHI XIANG                           </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>CHONG ZHI SHIN                            </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>CHONG ZHI JUN                             </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>CHONG YU ZHEN                             </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>CHONG YU XUAN                             </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>CHONG YU MIN                              </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>CHONG YOONG KHANG                         </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>CHONG YEE SIN                             </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>CHONG YEE PENG                            </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>CHONG YAN ZI                              </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHONG XUAN NI                             </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>CHONG XIN YING                            </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>CHONG XIN WEI                             </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>CHONG XIN TIAN                            </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>CHONG WAN QIAN                            </td>
+            <td>3B3           </td>
+        </tr>
+        <tr>
+            <td>CHONG TZE CHEAN                           </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>CHONG SHU YI                              </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>CHONG SHIWEN                              </td>
+            <td>4P1           </td>
+        </tr>
+        <tr>
+            <td>CHONG SHIN WEI                            </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>CHONG SHIN JIE                            </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>CHONG SHIAN WEI                           </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>CHONG SHEN WAY                            </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>CHONG SE                                  </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>CHONG PIT YING                            </td>
+            <td>4P5           </td>
+        </tr>
+        <tr>
+            <td>CHONG PIT FONG                            </td>
+            <td>5P2           </td>
+        </tr>
+        <tr>
+            <td>CHONG PEI WAEN                            </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>CHONG ONN RO                              </td>
+            <td>4S7           </td>
+        </tr>
+        <tr>
+            <td>CHONG MING HUI                            </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>CHONG MIN SHAN                            </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>CHONG MIN HUEY                            </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHONG KAI NI                              </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>CHONG KAI LING                            </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>CHONG JOON SEW                            </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>CHONG JINTING                             </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>CHONG JIA YI                              </td>
+            <td>1A7           </td>
+        </tr>
+        <tr>
+            <td>CHONG JIA XIN                             </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>CHONG JIA WEN                             </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>CHONG JIA WEN                             </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>CHONG JIA NI                              </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>CHONG JIA HUI                             </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>CHONG JIA AI                              </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>CHONG HUI-NING                            </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>CHONG HUI YUAN                            </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>CHONG HUI SHAN                            </td>
+            <td>4P1           </td>
+        </tr>
+        <tr>
+            <td>CHONG HUI SAN                             </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>CHONG HUI MEI                             </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>CHONG HOU YIN                             </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>CHONG HOC WAH                             </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>CHONG CHOON KIT                           </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>CHONG CHEE LENG                           </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>CHOK SIOW SHEIN                           </td>
+            <td>U6B           </td>
+        </tr>
+        <tr>
+            <td>CHOK SIOW SEE                             </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>CHOK SEAN                                 </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>CHOI ZU ER                                </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>CHNG ZHI HAO                              </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>CH&#39;NG YAW WOEI                            </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>CH&#39;NG TZE YU                              </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>CHNG MEI SHAN                             </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>CHLOE LOH QI TIAN                         </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>CHLOE CHOY KA LING                        </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>CHLOE CHOCK ZE XING                       </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>CHING TECK SHENG                          </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>CHING POH YEE                             </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>CHIN ZHENG YI                             </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>CHIN YI KING                              </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>CHIN YI JIAN                              </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>CHIN YEAN YEE                             </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>CHIN YAN BIN                              </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>CHIN YAAN EE                              </td>
+            <td>U6S           </td>
+        </tr>
+        <tr>
+            <td>CHIN WOEI MUN                             </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>CHIN VI LEY                               </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>CHIN TECK CHING                           </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>CHIN QI YEW                               </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>CHIN PAK MING                             </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>CHIN NUO ER                               </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>CHIN MEI YEE                              </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>CHIN MEI SHIN                             </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>CHIN KHEE KAI                             </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>CHIN JUN WEI                              </td>
+            <td>3A6           </td>
+        </tr>
+        <tr>
+            <td>CHIN JING XUAN                            </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>CHIN JIE YU                               </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHIN HUI YEE                              </td>
+            <td>U6A           </td>
+        </tr>
+        <tr>
+            <td>CHIN FOOK YUNG                            </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>CHIK YUKI                                 </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>CHIEW ZI YAN                              </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>CHIEW ZHI YI                              </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>CHIEW JIA HUI, MICHELLE                   </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>CHIENG XIAO SHUEN                         </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>CHIANG YU XIANG                           </td>
+            <td>4P5           </td>
+        </tr>
+        <tr>
+            <td>CHIANG PUI TUNG                           </td>
+            <td>5P2           </td>
+        </tr>
+        <tr>
+            <td>CHIANG MUN YEE                            </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>CHIAM ZHONG HAO                           </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>CHIAH XUAN                                </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHIA ZHI LING                             </td>
+            <td>1A7           </td>
+        </tr>
+        <tr>
+            <td>CHIA ZHE ZHOU                             </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>CHIA XIN                                  </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHIA WEI ZE                               </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>CHIA TZE SAN                              </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>CHIA MEI YEE                              </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>CHIA JUN YEH                              </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>CHIA JET YEE                              </td>
+            <td>1B6           </td>
+        </tr>
+        <tr>
+            <td>CHIA DING XIAN                            </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CHEW ZHEN YUE                             </td>
+            <td>3A5           </td>
+        </tr>
+        <tr>
+            <td>CHEW YUAN JIE                             </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>CHEW YI KHER                              </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHEW XIAO SHIAN                           </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>CHEW WEN HUI                              </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>CHEW TZE WEI                              </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>CHEW SZE CHYI                             </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>CHEW SAU KANG                             </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>CHEW RUI ZHE                              </td>
+            <td>U6B           </td>
+        </tr>
+        <tr>
+            <td>CHEW RUI KEN                              </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>CHEW RUI BO                               </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>CHEW PEI LIN                              </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>CHEW PARK NING                            </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>CHEW LI YIN                               </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>CHEW LER YIN                              </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>CHEW KAH RONG                             </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>CHEW KAH HUP                              </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>CHEW JUN HAO                              </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>CHEW JIA JIA PHEBE                        </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>CHERYL SAN JIA WEI                        </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>CHERYL LAW WEI YEE                        </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>CHERYL LAU WEI PING                       </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>CHERN KAE SHIUAN                          </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>CHERLYNA MOK SOOK WAH                     </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>CHEOW XHUN EY                             </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>CHEOW J-SERN                              </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHEONG ZHEN XI                            </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>CHEONG YU WEN                             </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHEONG YEE PING                           </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>CHEONG YEE LING                           </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>CHEONG XIN RAN                            </td>
+            <td>2B6           </td>
+        </tr>
+        <tr>
+            <td>CHEONG XIANG TING                         </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>CHEONG WEN XUAN                           </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>CHEONG QINNI                              </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>CHEONG PUI HANG                           </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>CHEONG MIN RUI                            </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CHEONG LYE KAY                            </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>CHEONG KIN HOE                            </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>CHEONG KENG YEW                           </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHEONG KANG YAN                           </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>CHEONG KAI LUN                            </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>CHEONG KAH YUAN                           </td>
+            <td>5S5           </td>
+        </tr>
+        <tr>
+            <td>CHEONG JI YEONG                           </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>CHEONG J-HAN                              </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHEONG IANSON TIENSING                    </td>
+            <td>5S5           </td>
+        </tr>
+        <tr>
+            <td>CHEONG CHI EN                             </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>CHEOH AI YEE                              </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>CHENG ZHI YEEN                            </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>CHENG ZHI QIN                             </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>CHENG YUK TING                            </td>
+            <td>1B4           </td>
+        </tr>
+        <tr>
+            <td>CHENG YIRRU                               </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CHENG YAN TONG                            </td>
+            <td>1A7           </td>
+        </tr>
+        <tr>
+            <td>CHENG SUE WEN                             </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>CHENG QING                                </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>CHENG LI XUAN                             </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>CHENG LI SHUEN                            </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>CHENG JOAN                                </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>Cheng Jia Jun                             </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>CHENG JIA JOE                             </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>CHENG CHUN KHAI                           </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CHEN ZI MUN                               </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHEN YOKE LIM                             </td>
+            <td>4S4           </td>
+        </tr>
+        <tr>
+            <td>CHEN YOKE CHING                           </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>CHEN YI XIN                               </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>CHEN XIAO XUAN                            </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>CHEN TYNG XIN                             </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CHEN SHAYNAE                              </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>CHEN SHAMAYNE                             </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>CHEN ROU XIN                              </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>CHEN PEI EN                               </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>CHEN JIA HUEY                             </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>CHEN JEE LYNN                             </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>CHEN HUI YEE                              </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>CHEN AI YIN                               </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>CHEN AI SHER                              </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>CHEH YING XIN                             </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>CHEH SHU ZE                               </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>CHEH SHU XUN                              </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>CHEH LI XIN                               </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>CHEE WAI KIT                              </td>
+            <td>U6A           </td>
+        </tr>
+        <tr>
+            <td>CHEE KIEN YUE                             </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>CHEE HOR YEE                              </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>CHEE HOR YAN                              </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>CHEE EN TONG                              </td>
+            <td>1B4           </td>
+        </tr>
+        <tr>
+            <td>CHEANG LI YEN                             </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>CHEAN WAI SOON                            </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>CHEAM JIA YI                              </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>CHEAH ZHEN HUI                            </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>CHEAH XIN YING                            </td>
+            <td>3B3           </td>
+        </tr>
+        <tr>
+            <td>CHEAH THENG YEAN                          </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>CHEAH PUI LENG                            </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>CHEAH PEI YING                            </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>CHEAH MUN HONG                            </td>
+            <td>U6A           </td>
+        </tr>
+        <tr>
+            <td>CHEAH JUN REN                             </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>CHEAH HUI YI                              </td>
+            <td>2B6           </td>
+        </tr>
+        <tr>
+            <td>CHEAH HO KAR KHAI                         </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>CHEAH HIU LAM                             </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHEAH HAO ZHE                             </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>CHEAH EU SHAUN                            </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>CHEAH CARMEN                              </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>CHEA KAR MAY                              </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>CHEA JIN SENG                             </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>CHEA JIN FATT                             </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>CHAY SZE ZEE                              </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>CHAW WAN YEE                              </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>CHAU SHEE WEN                             </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>CHAU SHEE TEAN                            </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>CHASTAN SHIEH ZHEN-LI                     </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>CHARMIND EA CHIANG                        </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>CHARMAINE TEH YI QIAN                     </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>CHARMAIN EA CHIANG                        </td>
+            <td>2B1           </td>
+        </tr>
+        <tr>
+            <td>CHARLES NGEW                              </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>CHAR YI TING                              </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>CHAR YI LI                                </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>CHANG YUIN                                </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>CHANG YEE KHONG                           </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHANG XUE XIN                             </td>
+            <td>1B7           </td>
+        </tr>
+        <tr>
+            <td>CHANG WEI YING                            </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>CHANG SU LIM                              </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>CHANG SIEW CHING                          </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>CHANG LING YING                           </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>CHANG LAM                                 </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHANG LAI TENG                            </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>CHANG KOK YEE                             </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>CHANG KAI YEE                             </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>CHANG KAI WERN                            </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>CHANG KAI LI                              </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHANG JUN XIANG                           </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>CHANG JUN KAI                             </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>CHANG JING YI                             </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>CHANG JING WEN                            </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>CHANG CHENG                               </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>CHANG BOON WAI                            </td>
+            <td>5P2           </td>
+        </tr>
+        <tr>
+            <td>CHANEL NG SYUEN NEE                       </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHAN ZHUO YING                            </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>CHAN ZHI- YUAN,ZIDEAN                     </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>CHAN ZHI HUNG                             </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>CHAN ZHAN HONG                            </td>
+            <td>3B6           </td>
+        </tr>
+        <tr>
+            <td>CHAN YUN                                  </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>CHAN YU ANNE                              </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CHAN YONG JIN                             </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHAN YIN LIN                              </td>
+            <td>U6B           </td>
+        </tr>
+        <tr>
+            <td>CHAN YI YANG                              </td>
+            <td>4S3           </td>
+        </tr>
+        <tr>
+            <td>CHAN YI TAO                               </td>
+            <td>1B6           </td>
+        </tr>
+        <tr>
+            <td>CHAN YAN THUNG                            </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>CHAN XIN YING                             </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>CHAN WENG CHEONG                          </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>CHAN WEI YIE                              </td>
+            <td>4P5           </td>
+        </tr>
+        <tr>
+            <td>CHAN WEI KEI                              </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>CHAN WAN TENG                             </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHAN SZE TING                             </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>CHAN SYN YI                               </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CHAN SIEW LING                            </td>
+            <td>U6A           </td>
+        </tr>
+        <tr>
+            <td>CHAN QI-HUA                               </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CHAN PUI MAN                              </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>CHAN PEI JIA                              </td>
+            <td>3A5           </td>
+        </tr>
+        <tr>
+            <td>CHAN MING YEE                             </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>CHAN MING XUAN                            </td>
+            <td>3B6           </td>
+        </tr>
+        <tr>
+            <td>CHAN LON YEAN, RYAN                       </td>
+            <td>1A7           </td>
+        </tr>
+        <tr>
+            <td>CHAN LOK HIN                              </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>CHAN LOK                                  </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>CHAN LE KANG                              </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>CHAN KOK MERNG                            </td>
+            <td>3B5           </td>
+        </tr>
+        <tr>
+            <td>CHAN KIN LEIGH                            </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>CHAN KAR LID                              </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>CHAN JUNJI                                </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CHAN JIN WEN                              </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>CHAN JIA ZHEN                             </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>CHAN JI TING                              </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>CHAN HIU YENG SHERYL                      </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>CHAN HIEW THUNG                           </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>CHAN GUO HERR                             </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>CHAN CHIN WEI                             </td>
+            <td>1B6           </td>
+        </tr>
+        <tr>
+            <td>CHAN CHET YING                            </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>CHAN CHEE XUN                             </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>CHAN BOON CHENG                           </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>CHAN ANN QI                               </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>CHAM TIAN XIN                             </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>CHAI ZHI QING                             </td>
+            <td>2B7           </td>
+        </tr>
+        <tr>
+            <td>CHAI YOKE WEI                             </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>CHAI YIK HOU                              </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>CHAI YEW KEN                              </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>CHAI XIAO TING                            </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>CHAI WEI JIE                              </td>
+            <td>U6B           </td>
+        </tr>
+        <tr>
+            <td>CHAI WEI HONG                             </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>CHAI PEI SAN                              </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>CHAI MUN YUAN                             </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>CHAI MUN CHOON                            </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>CHAI JIA-YI                               </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>CHAI JIA RONG                             </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>CHAI HONG MENG                            </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>CHAI HAO MIN                              </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>CELINE WAN KHYE WEN                       </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>CELINE THIEN XUAN YI                      </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>CELINE NG JING XI                         </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>CELINE KER HUI JEAN                       </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>CELINE CHANG GUAN YAN                     </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>CELIN KHOO ROONG TENG                     </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>CELESTINE NG DEE JEAN                     </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>CECELIA TEE HOOI SHUEN                    </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>CASH LOOI HAO                             </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>CARYN YEH KAILIN                          </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>CAROL LOI JIA JIA                         </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>CAROL CHONG SZE JIE                       </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>CARMEN SEOW MUN YEE                       </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>CARMEN LOW JIA MIN                        </td>
+            <td>2B3           </td>
+        </tr>
+        <tr>
+            <td>CARMEN CHONG JIA MING                     </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>CANDRESWARY A/P HARITHERAN                </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>CALVIN TAN WEI ZHE                        </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>CALVIN LIM ZHI HOU                        </td>
+            <td>1B2           </td>
+        </tr>
+        <tr>
+            <td>CALVIN KHONG JIAN YOONG                   </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>CALVIN CHOO KAA WENG                      </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>CALLIE CHEONG ZHI-YI                      </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>CAISY LOW                                 </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>BUX SHUN YI                               </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>BUX KAI ZHE                               </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>BRYAN TEY MING KHAI                       </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>BRYAN TAN KAI CHIN                        </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>BRYAN LIEW CARL JUN                       </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>BRYAN LEONG YUAN CHAO                     </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>BRYAN FOO YAU HUI                         </td>
+            <td>U6A           </td>
+        </tr>
+        <tr>
+            <td>BRYAN CHEE EE PINN                        </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>BRITTANY YEW JIAQI                        </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>BRIGITTE YEW XINYI                        </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>BRIDGETT WANG SHI-EN                      </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>BRIAN WONG KAH HOE                        </td>
+            <td>5S5           </td>
+        </tr>
+        <tr>
+            <td>BRIAN SIA SHENG QUAN                      </td>
+            <td>3A2           </td>
+        </tr>
+        <tr>
+            <td>BRIAN LIM WEI JET                         </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>BRIAN KOK XI KANG                         </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>BRENDON LIAO WEI GUANG                    </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>BRENDAN CHOY YEE MENG                     </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>BRENDAN CHIN YI HANG                      </td>
+            <td>4P4           </td>
+        </tr>
+        <tr>
+            <td>BRENDA WONG YONG HAN                      </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>BRENDA THAM KHOI SHAN                     </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>BRENDA MOW PEI YI                         </td>
+            <td>2A7           </td>
+        </tr>
+        <tr>
+            <td>BOO YU XUEAN                              </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>BOO YU THONG                              </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>BOO MIN YEN                               </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>BOO MIN QI                                </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>BOO DAWN ERN                              </td>
+            <td>3B7           </td>
+        </tr>
+        <tr>
+            <td>BOEY KONG KEEN                            </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>BOEY KAI QI                               </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>BERNICE BOEY YEN LYNN                     </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>BERNARD NG BINHANG                        </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>BENJAMIN YAP TZE MING                     </td>
+            <td>5P1           </td>
+        </tr>
+        <tr>
+            <td>BENJAMIN SAW TZE-YI                       </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>BENJAMIN LEW EN PIN                       </td>
+            <td>4S7           </td>
+        </tr>
+        <tr>
+            <td>BENEDICT YEOH KENG AIK                    </td>
+            <td>2A3           </td>
+        </tr>
+        <tr>
+            <td>BEITRIS CHAN WEN YI                       </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>BEH MING PHING                            </td>
+            <td>2A6           </td>
+        </tr>
+        <tr>
+            <td>BEH KUAN YUN                              </td>
+            <td>4P1           </td>
+        </tr>
+        <tr>
+            <td>BEH HUAI SZE                              </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>BEH HUAI JIAN                             </td>
+            <td>4S2           </td>
+        </tr>
+        <tr>
+            <td>BEH BOON LI                               </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>BAY ZHENG YI                              </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>BAIK KAI SHAN                             </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>AVELINE SHIM MEE KEE                      </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>AUSTIN LEE KEE AO                         </td>
+            <td>1A6           </td>
+        </tr>
+        <tr>
+            <td>AUGUSTINE NG KOK CHUAN                    </td>
+            <td>2B2           </td>
+        </tr>
+        <tr>
+            <td>AUDREY KOH RUI PING                       </td>
+            <td>4S8           </td>
+        </tr>
+        <tr>
+            <td>AU YONG WEI QING                          </td>
+            <td>5S1           </td>
+        </tr>
+        <tr>
+            <td>AU YONG SIU JUNG                          </td>
+            <td>4S5           </td>
+        </tr>
+        <tr>
+            <td>AU YONG SHERN WEI                         </td>
+            <td>2B4           </td>
+        </tr>
+        <tr>
+            <td>AU YONG EE QING                           </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>AU YONG CHERN MIN                         </td>
+            <td>3B6           </td>
+        </tr>
+        <tr>
+            <td>AU QIAN ZHENG                             </td>
+            <td>2A1           </td>
+        </tr>
+        <tr>
+            <td>AU MENG YEW                               </td>
+            <td>4S7           </td>
+        </tr>
+        <tr>
+            <td>ASHLEY KHOR SHAO-YING                     </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>ASHLEY CHONG WEI                          </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>ARIS NG YEE YUNG                          </td>
+            <td>2B5           </td>
+        </tr>
+        <tr>
+            <td>ANYSSA CHAN MEI LING                      </td>
+            <td>4P4           </td>
+        </tr>
+        <tr>
+            <td>ANSON PANG JUN YAN                        </td>
+            <td>3B6           </td>
+        </tr>
+        <tr>
+            <td>ANNIE CHOO ERN NIE                        </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>ANNE LIM TONG ERN                         </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>ANNE LIM HUI EN                           </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>ANNA CHUA SU MIN                          </td>
+            <td>5S5           </td>
+        </tr>
+        <tr>
+            <td>ANGUST OWEN LEE CHUN HOO                  </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>ANGELLINA TAN HOAY TZE                    </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>ANGELINE TAN PEI SHIN                     </td>
+            <td>1A1           </td>
+        </tr>
+        <tr>
+            <td>ANGELINA WONG YEE YING                    </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>ANG WEOY NEE                              </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>ANG WEOY HOWE                             </td>
+            <td>5S2           </td>
+        </tr>
+        <tr>
+            <td>ANG WEI TING                              </td>
+            <td>4P2           </td>
+        </tr>
+        <tr>
+            <td>ANG TEIK JIAN                             </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>ANG QIAO ERN                              </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>ANG KAI YANG                              </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>ANG JING YUAN                             </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>ANG JIA WIN                               </td>
+            <td>5P5           </td>
+        </tr>
+        <tr>
+            <td>ANG JIA JIUNN                             </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>ANG ESHUN                                 </td>
+            <td>4P3           </td>
+        </tr>
+        <tr>
+            <td>ANDRYA K. SAGADEVARAJAN                   </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>ANDREW YEOW TZE HAO                       </td>
+            <td>3A1           </td>
+        </tr>
+        <tr>
+            <td>ANDREW NG LIP HENG                        </td>
+            <td>4S7           </td>
+        </tr>
+        <tr>
+            <td>ANDREW JACOB SOLOMON                      </td>
+            <td>3B2           </td>
+        </tr>
+        <tr>
+            <td>AMY AMANDA LANG POOI MUN                  </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>AMELYN KOK LI-YII                         </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>AMELIN NG XIN PEI                         </td>
+            <td>4S9           </td>
+        </tr>
+        <tr>
+            <td>AMBERLY WONG YENN YIE                     </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>AMBERLY CHEAH PEI ZIN                     </td>
+            <td>5S7           </td>
+        </tr>
+        <tr>
+            <td>AMANDA YAP POH YEE                        </td>
+            <td>3A3           </td>
+        </tr>
+        <tr>
+            <td>AMANDA LEE MEI WAH                        </td>
+            <td>2A4           </td>
+        </tr>
+        <tr>
+            <td>AMANDA KHOO HONG JUN                      </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>AMANDA FOONG HUI YIN                      </td>
+            <td>1A5           </td>
+        </tr>
+        <tr>
+            <td>ALYSSA CHIN WAI SHAN                      </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>ALWIN CHAI YAR ZHEN                       </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>ALVIN WONG SHEN YANG                      </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>ALVIN WONG CHII HOON                      </td>
+            <td>5P5           </td>
+        </tr>
+        <tr>
+            <td>ALVIN LIM TECK GUAN                       </td>
+            <td>5S3           </td>
+        </tr>
+        <tr>
+            <td>ALVIN LIAO WEI QIANG                      </td>
+            <td>4S6           </td>
+        </tr>
+        <tr>
+            <td>ALLEX OOI KEE HENG                        </td>
+            <td>3B1           </td>
+        </tr>
+        <tr>
+            <td>ALLAN SHAK TZE REN                        </td>
+            <td>3B4           </td>
+        </tr>
+        <tr>
+            <td>ALLAN  NG CHET HOOI                       </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>ALIF RIZDWAN B. OMAR                      </td>
+            <td>5S4           </td>
+        </tr>
+        <tr>
+            <td>ALIF FAHMI BIN MAZLI                      </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>ALICIA TAN YU TIAN                        </td>
+            <td>3A4           </td>
+        </tr>
+        <tr>
+            <td>ALICIA HO PEI SHAN                        </td>
+            <td>1B3           </td>
+        </tr>
+        <tr>
+            <td>ALICE HO                                  </td>
+            <td>3B8           </td>
+        </tr>
+        <tr>
+            <td>ALFRED SHAK TZE CHUNG                     </td>
+            <td>5S9           </td>
+        </tr>
+        <tr>
+            <td>ALESSA LEE MINN                           </td>
+            <td>5S6           </td>
+        </tr>
+        <tr>
+            <td>ALENA KHOO SU WEI                         </td>
+            <td>1A2           </td>
+        </tr>
+        <tr>
+            <td>AIDAN YANG YI                             </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>AGNES TOH JIA YUE                         </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>AGNES TAN WEN NI                          </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>ADRYON KOH JIA HAO                        </td>
+            <td>1A4           </td>
+        </tr>
+        <tr>
+            <td>ADRIAN WONG CHEE SENG                     </td>
+            <td>4S7           </td>
+        </tr>
+        <tr>
+            <td>ADRIAN WAN YUE KIT                        </td>
+            <td>5P4           </td>
+        </tr>
+        <tr>
+            <td>ADRIAN TAN WEI HUN                        </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>ADRIAN KOH JEN ERN                        </td>
+            <td>2A5           </td>
+        </tr>
+        <tr>
+            <td>ADRIAN CHONG KAI YEN                      </td>
+            <td>1B1           </td>
+        </tr>
+        <tr>
+            <td>ADELINE YEAP JIA XI                       </td>
+            <td>1B5           </td>
+        </tr>
+        <tr>
+            <td>ADELINE NEO MOK SINN                      </td>
+            <td>5P3           </td>
+        </tr>
+        <tr>
+            <td>ADELINE LIOW PEI YING                     </td>
+            <td>2A2           </td>
+        </tr>
+        <tr>
+            <td>ADELAIDE ANGELA QI&#39;UNG                    </td>
+            <td>1B6           </td>
+        </tr>
+        <tr>
+            <td>ADAM NG YEE ANN                           </td>
+            <td>4P4           </td>
+        </tr>
+        <tr>
+            <td>ABIGAIL TEOH PEI EN                       </td>
+            <td>3A5           </td>
+        </tr>
+        <tr>
+            <td>ABDUL HAFIY BIN ABDUL HALIM               </td>
+            <td>4P4           </td>
+        </tr>
+        <tr>
+            <td>ABBY LIM YII WEN                          </td>
+            <td>4S1           </td>
+        </tr>
+        <tr>
+            <td>AARON OONG ZHU WEN                        </td>
+            <td>1A3           </td>
+        </tr>
+        <tr>
+            <td>AARON MARC LOH TENG WEI                   </td>
+            <td>3B3           </td>
+        </tr>
+    </tbody>
+    </table>
+
+            </div>
+
+        <p>Data exported from: SMS</p>
+        <p>Database last updated: 24 April 2014</p>
+        <p>CHS Online - SSM v1.1.0.0 BETA</p>
+    </body>
+</html>
+
+
+        <p style="font-style:italic;">*This website is tested working well with Microsoft Internet Explorer 11.0 and Google Chrome 34.0</p>
+            <p style="font-size:20px;font-weight:bold;text-align:center;">&copy; Chong Onn Keat, SMJK Katholik, 2014. All Rights Reserved.
+        <br />
+                <a href="http://azure.microsoft.com/en-us/" target="_blank">Powered by Microsoft Azure.</a></p>
+        <br />
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', gaTrack: true, gaId: 'UA-45453423-2' }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</body>
+</html>
